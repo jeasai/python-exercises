@@ -39,7 +39,7 @@ class VariablesTest(unittest.TestCase):
         self.assertVariablesHasattr("likes_pasta")
         self.assertType(variables.likes_apples, bool)
         self.assertType(variables.likes_pasta, bool)
-        self.assertTrue(variables.likes_apples or variables.like_pasta)
+        self.assertTrue(variables.likes_apples or variables.likes_pasta)
 
     def test_neg(self):
         self.assertVariablesHasattr("neg")
