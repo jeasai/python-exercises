@@ -7,6 +7,7 @@ price2 = 2000
 tax = 20
 refund = 15
 nb_items = 5
+unit_price = 100
 small_discount = True
 big_discount = False
 price_str = "3.1415"

@@ -19,6 +19,7 @@ class OperatorsTest(unittest.TestCase):
         self.assertEqual(operators.tax, 20, errmsg)
         self.assertEqual(operators.refund, 15, errmsg)
         self.assertEqual(operators.nb_items, 5, errmsg)
+        self.assertEqual(operators.unit_price, 100, errmsg)
         self.assertEqual(operators.small_discount, True, errmsg)
         self.assertEqual(operators.big_discount, False, errmsg)
         self.assertEqual(operators.price_str, "3.1415", errmsg)
